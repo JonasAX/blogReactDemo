@@ -2,6 +2,8 @@
 
 This is a demonstration of a blog website built with [React.js](https://reactjs.org/).
 
+Link to page [jonasax.github.io/blogReactDemo/](https://jonasax.github.io/blogReactDemo/)
+
 ## Available Scripts
 
 In the project directory, you can run:
