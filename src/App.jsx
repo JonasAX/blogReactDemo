@@ -13,7 +13,7 @@ function App() {
         <>
             <TopBar />
             <Routes>
-                <Route index element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route
                     path="register"
                     element={user ? <Home /> : <Register />}
