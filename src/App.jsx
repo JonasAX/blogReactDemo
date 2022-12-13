@@ -14,7 +14,7 @@ function App() {
         <>
             <TopBar />
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route index element={<Home />} />
                 <Route
                     path="register"
                     element={user ? <Home /> : <Register />}
@@ -26,7 +26,7 @@ function App() {
                 />
                 <Route path="post/:postId" element={<Single />} />
                 <Route path="write" element={user ? <Write /> : <Register />} />
-                <Route path="*" element={ <NotFound />} />
+                <Route path="/*" element={ <NotFound user={user} />} />
             </Routes>
         </>
     );
