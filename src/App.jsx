@@ -5,6 +5,7 @@ import Login from "./pages/login/Login";
 import Settings from "./pages/settings/Settings";
 import Single from "./pages/single/Single.jsx";
 import Write from "./pages/write/Write";
+import NotFound from "./pages/notFound/NotFound";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                 />
                 <Route path="post/:postId" element={<Single />} />
                 <Route path="write" element={user ? <Write /> : <Register />} />
+                <Route path="*" element={ <NotFound />} />
             </Routes>
         </>
     );
