@@ -7,9 +7,10 @@ import Single from "./pages/single/Single.jsx";
 import Write from "./pages/write/Write";
 import NotFound from "./pages/notFound/NotFound";
 import { Routes, Route } from "react-router-dom";
+import { useState } from "react";
 
 function App() {
-    const user = false;
+    const [user, setUser] = useState(true)
     return (
         <>
             <TopBar />
