@@ -1,5 +1,7 @@
 # What is this repository?
 
+This repo is under development ⚠️
+
 This is a demonstration of a blog website built with [React.js](https://reactjs.org/).
 
 Link to page [jonasax.github.io/blogReactDemo/](https://jonasax.github.io/blogReactDemo/)
